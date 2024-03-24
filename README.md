@@ -34,5 +34,5 @@
 
 ### Gabriel Pereira
 
-### Link da prévia: https://bit.ly/3TooJ1y
+### Link da prévia: https://vid-flow-flame.vercel.app/
 ### Linkedin: https://www.linkedin.com/in/gabriel-martins2003/
