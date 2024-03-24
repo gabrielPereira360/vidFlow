@@ -2,7 +2,7 @@ const containerVideos = document.querySelector('.videos__container'); // Obter i
 
 async function buscarEMostrarVideos() {
     try {
-        const busca = await fetch('http://localhost:3000/videos') // Obter a lista de vídeos
+        const busca = await fetch('https://gabrielpereira360.github.io/apiVidflow/videos.json') // Obter a lista de vídeos
         const videos = await busca.json(); // Tranforma a promisse em um JSON
         videos.forEach((video) => {
 
