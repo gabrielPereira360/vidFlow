@@ -370,6 +370,13 @@ iframe {
     padding: 0 25px;
   }
 
+  .pesquisar__input {
+    padding: 8px 15px;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 32px 0px 0px 32px;
+    font-size: 16px;
+  }
+
 
   /* ESTILOS DA SECAO SUPERIOR */
 
@@ -419,13 +426,6 @@ iframe {
 }
 
 @media(min-width: 1440px) {
-
-  .pesquisar__input {
-    padding: 8px 15px;
-    border: 2px solid var(--cinza-claro);
-    border-radius: 32px 0px 0px 32px;
-    font-size: 16px;
-  }
 
   .pesquisar__input-teclado {
     position: absolute;
