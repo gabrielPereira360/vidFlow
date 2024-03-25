@@ -39,6 +39,13 @@ body {
   padding: 15px 0px;
   cursor: pointer;
   width: 100px;
+  transition: opacity .5s linear;
+  opacity: 1;
+}
+
+.logo__item.hide{
+  opacity: 0;
+  pointer-events: none;
 }
 
 
@@ -141,6 +148,15 @@ body {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
+
+.pesquisar__input {
+  padding: 8px 15px;
+  border: 2px solid var(--cinza-claro);
+  border-radius: 32px;
+  font-size: 16px;
+  width: 100%;
+}
+
 
 /* MENU */
 
@@ -338,11 +354,14 @@ iframe {
     padding: 13px 30px 13px 33px;
   }
   
-
   .pesquisar__input-teclado {
     position: absolute;
     right: 40%;
     top: 33%;
+  }
+
+  .pesquisar__input {
+    border-radius: 32px 0px 0px 32px;
   }
 }
 
@@ -368,13 +387,6 @@ iframe {
 
   .cabecalho__container {
     padding: 0 25px;
-  }
-
-  .pesquisar__input {
-    padding: 8px 15px;
-    border: 2px solid var(--cinza-claro);
-    border-radius: 32px 0px 0px 32px;
-    font-size: 16px;
   }
 
 

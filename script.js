@@ -1,3 +1,31 @@
+const btn_pesquisa = document.querySelector('.cabecalho__pesquisa');
+const barraPesquisa = document.querySelector('.cabecalho__pesquisar__item');
+const logo = document.querySelector('.logo__item');
+barraPesquisa.classList.add("hide");
+
+btn_pesquisa.addEventListener('click', () => {
+    if (logo.classList.value.includes('hide')){
+        setTimeout(function() {
+            logo.style.display = 'block'; 
+          }, 500);
+        barraPesquisa.classList.add("hide");
+        logo.classList.remove("hide");  
+        setTimeout(function() {
+            barraPesquisa.style.display = 'none'; 
+          }, 500);
+    }else{
+        setTimeout(function() {
+            barraPesquisa.style.display = 'block';
+          }, 500);
+        barraPesquisa.classList.remove("hide");
+        logo.classList.add("hide");   
+        setTimeout(function() {
+            logo.style.display = 'none';   
+          }, 500);
+    }
+});
+
+
 const containerVideos = document.querySelector('.videos__container'); // Obter identificador da lista de vídeos
 
 async function buscarEMostrarVideos() {
