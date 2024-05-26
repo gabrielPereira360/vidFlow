@@ -1,7 +1,7 @@
 const btn_pesquisa = document.querySelector('.cabecalho__pesquisa');
 const barraPesquisa = document.querySelector('.cabecalho__pesquisar__item');
 const logo = document.querySelector('.logo__item');
-barraPesquisa.classList.add("hide");
+
 
 btn_pesquisa.addEventListener('click', () => {
     if (logo.classList.value.includes('hide')){
